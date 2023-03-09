@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B14216A29BA6454002149CE /* JojovaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14216929BA6454002149CE /* JojovaApp.swift */; };
+		3B14216C29BA6454002149CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14216B29BA6454002149CE /* ContentView.swift */; };
+		3B14216E29BA6454002149CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B14216D29BA6454002149CE /* Assets.xcassets */; };
+		3B14217129BA6454002149CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B14217029BA6454002149CE /* Preview Assets.xcassets */; };
+		3B14217B29BA6455002149CE /* JojovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14217A29BA6455002149CE /* JojovaTests.swift */; };
+		3B14218529BA6455002149CE /* JojovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14218429BA6455002149CE /* JojovaUITests.swift */; };
+		3B14218729BA6455002149CE /* JojovaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14218629BA6455002149CE /* JojovaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B14217729BA6454002149CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B14215E29BA6454002149CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B14216529BA6454002149CE;
+			remoteInfo = Jojova;
+		};
+		3B14218129BA6455002149CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B14215E29BA6454002149CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B14216529BA6454002149CE;
+			remoteInfo = Jojova;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B14216629BA6454002149CE /* Jojova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jojova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B14216929BA6454002149CE /* JojovaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JojovaApp.swift; sourceTree = "<group>"; };
+		3B14216B29BA6454002149CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B14216D29BA6454002149CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B14217029BA6454002149CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B14217629BA6454002149CE /* JojovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JojovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B14217A29BA6455002149CE /* JojovaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JojovaTests.swift; sourceTree = "<group>"; };
+		3B14218029BA6455002149CE /* JojovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JojovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B14218429BA6455002149CE /* JojovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JojovaUITests.swift; sourceTree = "<group>"; };
+		3B14218629BA6455002149CE /* JojovaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JojovaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B14216329BA6454002149CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14217329BA6454002149CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14217D29BA6455002149CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B14215D29BA6454002149CE = {
+			isa = PBXGroup;
+			children = (
+				3B14216829BA6454002149CE /* Jojova */,
+				3B14217929BA6454002149CE /* JojovaTests */,
+				3B14218329BA6455002149CE /* JojovaUITests */,
+				3B14216729BA6454002149CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B14216729BA6454002149CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B14216629BA6454002149CE /* Jojova.app */,
+				3B14217629BA6454002149CE /* JojovaTests.xctest */,
+				3B14218029BA6455002149CE /* JojovaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B14216829BA6454002149CE /* Jojova */ = {
+			isa = PBXGroup;
+			children = (
+				3B14216929BA6454002149CE /* JojovaApp.swift */,
+				3B14216B29BA6454002149CE /* ContentView.swift */,
+				3B14216D29BA6454002149CE /* Assets.xcassets */,
+				3B14216F29BA6454002149CE /* Preview Content */,
+			);
+			path = Jojova;
+			sourceTree = "<group>";
+		};
+		3B14216F29BA6454002149CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B14217029BA6454002149CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B14217929BA6454002149CE /* JojovaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B14217A29BA6455002149CE /* JojovaTests.swift */,
+			);
+			path = JojovaTests;
+			sourceTree = "<group>";
+		};
+		3B14218329BA6455002149CE /* JojovaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B14218429BA6455002149CE /* JojovaUITests.swift */,
+				3B14218629BA6455002149CE /* JojovaUITestsLaunchTests.swift */,
+			);
+			path = JojovaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B14216529BA6454002149CE /* Jojova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B14218A29BA6455002149CE /* Build configuration list for PBXNativeTarget "Jojova" */;
+			buildPhases = (
+				3B14216229BA6454002149CE /* Sources */,
+				3B14216329BA6454002149CE /* Frameworks */,
+				3B14216429BA6454002149CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jojova;
+			productName = Jojova;
+			productReference = 3B14216629BA6454002149CE /* Jojova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B14217529BA6454002149CE /* JojovaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B14218D29BA6455002149CE /* Build configuration list for PBXNativeTarget "JojovaTests" */;
+			buildPhases = (
+				3B14217229BA6454002149CE /* Sources */,
+				3B14217329BA6454002149CE /* Frameworks */,
+				3B14217429BA6454002149CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B14217829BA6454002149CE /* PBXTargetDependency */,
+			);
+			name = JojovaTests;
+			productName = JojovaTests;
+			productReference = 3B14217629BA6454002149CE /* JojovaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B14217F29BA6455002149CE /* JojovaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B14219029BA6455002149CE /* Build configuration list for PBXNativeTarget "JojovaUITests" */;
+			buildPhases = (
+				3B14217C29BA6455002149CE /* Sources */,
+				3B14217D29BA6455002149CE /* Frameworks */,
+				3B14217E29BA6455002149CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B14218229BA6455002149CE /* PBXTargetDependency */,
+			);
+			name = JojovaUITests;
+			productName = JojovaUITests;
+			productReference = 3B14218029BA6455002149CE /* JojovaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B14215E29BA6454002149CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3B14216529BA6454002149CE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3B14217529BA6454002149CE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3B14216529BA6454002149CE;
+					};
+					3B14217F29BA6455002149CE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3B14216529BA6454002149CE;
+					};
+				};
+			};
+			buildConfigurationList = 3B14216129BA6454002149CE /* Build configuration list for PBXProject "Jojova" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B14215D29BA6454002149CE;
+			productRefGroup = 3B14216729BA6454002149CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B14216529BA6454002149CE /* Jojova */,
+				3B14217529BA6454002149CE /* JojovaTests */,
+				3B14217F29BA6455002149CE /* JojovaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B14216429BA6454002149CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14217129BA6454002149CE /* Preview Assets.xcassets in Resources */,
+				3B14216E29BA6454002149CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14217429BA6454002149CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14217E29BA6455002149CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B14216229BA6454002149CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14216C29BA6454002149CE /* ContentView.swift in Sources */,
+				3B14216A29BA6454002149CE /* JojovaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14217229BA6454002149CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14217B29BA6455002149CE /* JojovaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B14217C29BA6455002149CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B14218529BA6455002149CE /* JojovaUITests.swift in Sources */,
+				3B14218729BA6455002149CE /* JojovaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B14217829BA6454002149CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B14216529BA6454002149CE /* Jojova */;
+			targetProxy = 3B14217729BA6454002149CE /* PBXContainerItemProxy */;
+		};
+		3B14218229BA6455002149CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B14216529BA6454002149CE /* Jojova */;
+			targetProxy = 3B14218129BA6455002149CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B14218829BA6455002149CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B14218929BA6455002149CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B14218B29BA6455002149CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jojova/Preview Content\"";
+				DEVELOPMENT_TEAM = WP859MDQB9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.owsega.Jojova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B14218C29BA6455002149CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jojova/Preview Content\"";
+				DEVELOPMENT_TEAM = WP859MDQB9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.owsega.Jojova;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B14218E29BA6455002149CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP859MDQB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.owsega.JojovaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jojova.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jojova";
+			};
+			name = Debug;
+		};
+		3B14218F29BA6455002149CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP859MDQB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.owsega.JojovaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jojova.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jojova";
+			};
+			name = Release;
+		};
+		3B14219129BA6455002149CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP859MDQB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.owsega.JojovaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jojova;
+			};
+			name = Debug;
+		};
+		3B14219229BA6455002149CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP859MDQB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.owsega.JojovaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jojova;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B14216129BA6454002149CE /* Build configuration list for PBXProject "Jojova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14218829BA6455002149CE /* Debug */,
+				3B14218929BA6455002149CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B14218A29BA6455002149CE /* Build configuration list for PBXNativeTarget "Jojova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14218B29BA6455002149CE /* Debug */,
+				3B14218C29BA6455002149CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B14218D29BA6455002149CE /* Build configuration list for PBXNativeTarget "JojovaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14218E29BA6455002149CE /* Debug */,
+				3B14218F29BA6455002149CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B14219029BA6455002149CE /* Build configuration list for PBXNativeTarget "JojovaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B14219129BA6455002149CE /* Debug */,
+				3B14219229BA6455002149CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B14215E29BA6454002149CE /* Project object */;
+}
