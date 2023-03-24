@@ -14,6 +14,9 @@
 		3B14217B29BA6455002149CE /* JojovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14217A29BA6455002149CE /* JojovaTests.swift */; };
 		3B14218529BA6455002149CE /* JojovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14218429BA6455002149CE /* JojovaUITests.swift */; };
 		3B14218729BA6455002149CE /* JojovaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14218629BA6455002149CE /* JojovaUITestsLaunchTests.swift */; };
+		3BA921A929C1171B00E93564 /* shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA921A829C1171B00E93564 /* shared.xcframework */; };
+		3BA921AA29C1171B00E93564 /* shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA921A829C1171B00E93564 /* shared.xcframework */; };
+		3BA921AB29C1171B00E93564 /* shared.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA921A829C1171B00E93564 /* shared.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3B14219A29BA69AE002149CE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3B14216629BA6454002149CE /* Jojova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jojova.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B14216929BA6454002149CE /* JojovaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JojovaApp.swift; sourceTree = "<group>"; };
@@ -44,6 +60,7 @@
 		3B14218029BA6455002149CE /* JojovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JojovaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B14218429BA6455002149CE /* JojovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JojovaUITests.swift; sourceTree = "<group>"; };
 		3B14218629BA6455002149CE /* JojovaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JojovaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BA921A829C1171B00E93564 /* shared.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shared.xcframework; path = "../../../Paramount/avia-native-tracking/shared/build/XCFrameworks/release/shared.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA921A929C1171B00E93564 /* shared.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA921AA29C1171B00E93564 /* shared.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA921AB29C1171B00E93564 /* shared.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,7 @@
 		3B14215D29BA6454002149CE = {
 			isa = PBXGroup;
 			children = (
+				3B14219329BA65AF002149CE /* Frameworks */,
 				3B14216829BA6454002149CE /* Jojova */,
 				3B14217929BA6454002149CE /* JojovaTests */,
 				3B14218329BA6455002149CE /* JojovaUITests */,
@@ -127,6 +148,14 @@
 			path = JojovaUITests;
 			sourceTree = "<group>";
 		};
+		3B14219329BA65AF002149CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA921A829C1171B00E93564 /* shared.xcframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +166,7 @@
 				3B14216229BA6454002149CE /* Sources */,
 				3B14216329BA6454002149CE /* Frameworks */,
 				3B14216429BA6454002149CE /* Resources */,
+				3B14219A29BA69AE002149CE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
